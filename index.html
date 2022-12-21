@@ -1,18 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Edad</title>
-    <script>
-      // Obtener la edad introducida
-      var age = document.getElementById("age").value;
-
-      // Comprobar si la edad es mayor o igual a 18
-      if (age >= 18) {
-        alert("Eres mayor de edad");
-      } else {
-        alert("Eres menor de edad");
-      }
-    </script>
+    <title>Edad</title>    
     <style>
       body {
       background-color: lightblue;
@@ -24,6 +13,17 @@
       <label for="age">Edad:</label><br>
       <input type="text" id="age" name="age"><br>
       <input type="submit" value="Enviar">
+      <script>
+        // Obtener la edad introducida
+        var age = document.getElementById("age").value;
+
+        // Comprobar si la edad es mayor o igual a 18
+        if (age >= 18) {
+          alert("Eres mayor de edad");
+        } else {
+          alert("Eres menor de edad");
+        }
+      </script>
     </form>     
   </body>
 </html>
